@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<meta charset="US-ASCII">
+<title>Steven RESTful FEED</title>
+<!-- Latest compiled and minified BOOTSRAP CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<style>
+ul{
+    list-style-type: none;
+}
+
+.text-center input{
+	width: 40%;
+	line-height: 30px;
+	font-size: 18px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+		<div class="jumbotron text-center">
+		<h1>Welcome to my RESTful Web Service</h1>
+		</div>
+		<div class ="text-center">
+			
+				<h4>Add a post</h4>
+				
+				<p><input placeholder="Name" type = "text" id="name" required></p>
+				<p><input placeholder="Message" type = "text" id="message" required></p>
+				<p><input placeholder="City" type="text" id= "city" required></p>
+				<button class="btn btn-primary" id="add-message">Add Message!</button>
+				
+			
+		</div>
+		<h1>FEED</h1>
+				<ul id ="posts">
+	
+				</ul>
+
+</div>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sugar/1.4.1/sugar-full.min.js"></script>
+<script type="text/javascript" src="js/weather.min.js"></script>
+</body>
+</html>
